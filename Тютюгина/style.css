@@ -1,10 +1,13 @@
-body{
-  background-image: url(./img/background.png);
+body {
+  background-repeat: no-repeat; 
+  background-position: center top; 
+  margin: 0;
 }
+
+
 header {
-  background-color: #f0f0f0;
   padding: 20px;
-  background-image: url(./img/background.png);
+background-image: url("./img/background.png"); 
 }
 
 nav {
@@ -37,3 +40,98 @@ ul {
 li {
   display: inline-block; 
 }
+
+.button1 {
+  background-color:  #23A6F0; 
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px; 
+  cursor: pointer;
+  margin: 10px; 
+  display: inline-block;
+}
+
+.transparent-button {
+  background-color: transparent; 
+  border: 2px solid #a5a5a5; 
+  color: #f1f1f1; 
+  border-radius: 25px;
+}
+
+h1 {
+  font-size: 44px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #f1f1f1;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #f1f1f1;
+}
+
+.content {
+  text-align: center;
+  
+}
+
+
+
+.card {
+  width: 300px; 
+  margin:20px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  overflow: hidden; 
+}
+
+.card-content {
+  background-color: white; 
+  padding: 20px;
+  text-align: center; 
+}
+
+.card-content-blue {
+  background-color: #23A6F0; 
+  color: white; 
+  padding: 20px;
+  text-align: center; 
+}
+
+.card-icon {
+  font-size: 30px; 
+  margin-bottom: 10px; 
+  margin-right: 10px;
+ float: left;
+}
+
+.card-title {
+  font-size: 18px; 
+  font-weight: bold;
+  margin-bottom: 10px; 
+  text-align: left;
+  padding: 9px;
+}
+
+.card-text {
+  font-size: 14px; 
+  color: #5a5a5a;
+  text-align: left;
+  padding: 9px;
+}
+
+.card-text1 {
+  font-size: 14px; 
+  line-height: 1.5; 
+  color: #eeeeee;
+  text-align: left;
+}
+
+.cards-container {
+  display: flex; 
+  justify-content: center; 
+  margin: -40px 0;
+  gap: 30px; 
+}
+
